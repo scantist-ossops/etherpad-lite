@@ -121,7 +121,7 @@ exports.ssl = false;
 /**
  * socket.io transport methods
  **/
-exports.socketTransportProtocols = ['xhr-polling', 'jsonp-polling', 'htmlfile'];
+exports.socketTransportProtocols = ["polling", "websocket"];
 
 exports.socketIo = {
   /**
